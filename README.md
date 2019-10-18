@@ -1,0 +1,1 @@
+# PalestraAlgoritmi2019Rosmini
