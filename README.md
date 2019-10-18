@@ -21,5 +21,6 @@ Questo repository sarà il contenitore di tutte le attività che verranno propos
 [Sito Prof. Montresor](http://cricca.disi.unitn.it/montresor/ "Sito Montresor")
 
 ### Team
-[Damiano Melotti](damiano.melotti@studenti.unitn.it)
-[Stefano Perenzoni](stefano.perenzoni@studenti.unitn.it)
+[Damiano Melotti](mailto:damiano.melotti@studenti.unitn.it)
+
+[Stefano Perenzoni](mailto:stefano.perenzoni@studenti.unitn.it)
