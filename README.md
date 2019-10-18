@@ -1,9 +1,9 @@
-﻿# Palestra di Algoritmi 2018/2019
+﻿# Palestra di Algoritmi 2019/2020
 
 ![Logo OII](https://training.olinfo.it/custom_images/logo.png)
 
 ### Introduzione
-Il Dipartimento di [Ingegneria e Scienze dell’Informazione (DISI)](https://www.disi.unitn.it/ "DISI") dell'Università degli Studi di Trento, in collaborazione con la rete [STAAR](http://www.staarr.it/ "STAAR"), propone un percorso di allenamento per le Olimpiadi di Informatica per l’a.s. 2018–2019.
+Il Dipartimento di [Ingegneria e Scienze dell’Informazione (DISI)](https://www.disi.unitn.it/ "DISI") dell'Università degli Studi di Trento, in collaborazione con la rete [STAAR](http://www.staarr.it/ "STAAR"), propone un percorso di allenamento per le Olimpiadi di Informatica per l’a.s. 2019/2020
 
 Questo percorso di allenamento ha molteplici obiettivi:
 * far conoscere agli studenti lo studio degli algoritmi come uno degli argomenti fondamentali dell’informatica
@@ -19,3 +19,8 @@ Questo repository sarà il contenitore di tutte le attività che verranno propos
 [Guida alle olimpiadi di informatica Prof. Bugatti](https://www.imparando.net/sito/olimpiadi_di_informatica/guida_quinta_edizione.pdf "Guida olimpiadi")
 
 [Sito Prof. Montresor](http://cricca.disi.unitn.it/montresor/ "Sito Montresor")
+
+### Team
+[Damiano Melotti](mailto:damiano.melotti@studenti.unitn.it)
+
+[Stefano Perenzoni](mailto:stefano.perenzoni@studenti.unitn.it)
