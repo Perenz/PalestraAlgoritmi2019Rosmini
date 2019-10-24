@@ -174,6 +174,30 @@ int d = abs(b);
 ```
 A fine esecuzione c varrà 5 e d varrà 5.
 
+#### String
+Consiste in una collezione di caratteri (char)
+Per poterle utilizzare è necessario includere la libreria string
+```cpp
+#include <string>
+string nome = "Stefano"
+string cognome = "Perenzoni"
+string nomeCompleto = nome + cognome; //Concatenazione di stringhe, trova l'"errore"
+cout << nomeCompleto
+```
+
+Alcuni metodi utili
+```cpp
+#include <string>
+string nome = "Stefano"
+string cognome = "Perenzoni"
+
+//Ottenere la lunghezza della stringa
+nome.length();
+
+//Accedere a caratteri singoli
+nome[0] //S
+```
+    
 ## Cose a cui prestare attenzione
 
 #### Integer overflow
