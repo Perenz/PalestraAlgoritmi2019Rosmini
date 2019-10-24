@@ -126,8 +126,9 @@ v.size() //3
 for(int n:v){
     //istruzioni...
 }
-
 ```
+per saperne di più: https://it.cppreference.com/w/cpp/container/vector
+
 
 #### Sort
 Implementazione di un algoritmo di ordinamento (efficiente):
@@ -197,6 +198,8 @@ nome.length();
 //Accedere a caratteri singoli
 nome[0] //S
 ```
+
+Per saperne di più: https://it.cppreference.com/w/cpp/string/basic_string
     
 ## Cose a cui prestare attenzione
 
