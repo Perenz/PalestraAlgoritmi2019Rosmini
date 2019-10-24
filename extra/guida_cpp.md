@@ -74,7 +74,26 @@ vector<int> v;
 
 in>>N;
 v.resize(N);
+```
 
+Piccolo esempio:
+```cpp
+#include <vector>
+using namespace std;
+
+int main()
+{
+    vector <int> V; //dichiarazione del vettore
+    int temp, somma = 0;
+    for (int i = 0; i < 10; i++) //lettura
+    {
+        in >> temp;
+        V.push_back(temp);
+    }
+    for (i = 0; i < 10; i++) //somma
+    somma += V.at(i);
+    cout << La somma vale: << somma << endl;
+return 0;
 ```
 
 #### Sort
