@@ -57,12 +57,13 @@ v.push_back(4);
 //vale la stessa modalità di accesso degli array statici, v[0] è uguale a 2
 int z = v[0];
 
-//Se dovete dichiarare un vettore con dimensione presa in input NON FATE qualcosa del genere altrimenti vi picchio
-int N;
-in>>N;
-int v[N];
+//Nonostante abbia dimensione """illimitata""" non si può accedere ad un elemento non ancora asseggnato
+//Non si può quindi fare:
+//int z = v[5]
 
-//potete però fare
+
+
+//Potete però dare al vettore una dimensione (NON è fissa, può variare) facendo:
 int N;
 in>>N;
 vector<int> v(N);
