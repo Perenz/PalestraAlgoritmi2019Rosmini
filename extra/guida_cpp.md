@@ -96,6 +96,39 @@ int main()
 return 0;
 ```
 
+Alcuni metodi importanti:
+```cpp
+vector<int> v
+
+//Aggiungere elementi dalla coda
+v.push_back(1);
+v.push_back(3);
+v.push_back(4);
+//{1,3,4}
+
+//Rimuovere elementi dalla coda
+v.pop_back() //4
+//rimane {1,3]
+
+//Accedere all'ultimo elemento (la coda)
+v.back() //4
+
+//Accedere al primo elemento (la testa)
+v.front() //1
+
+//Verificare se il vettore è vuoto
+v.empty() //false
+
+//Ottenere il numero di elementi contenuti
+v.size() //3
+
+//ITERARE sull'intero vettore
+for(int n:v){
+    //istruzioni...
+}
+
+```
+
 #### Sort
 Implementazione di un algoritmo di ordinamento (efficiente):
 ```cpp
