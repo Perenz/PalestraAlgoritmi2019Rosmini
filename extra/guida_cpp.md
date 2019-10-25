@@ -44,7 +44,7 @@ vector<int> v; //dichiarazione di un vettore di interi v
 
 //inserisco in v il valore a
 int a = 2;
-v.push_back(2);
+v.push_back(a);
 
 //size restituisce la dimensione del vettore, in questo caso 1 perché c'è un solo elemento
 int c = v.size();
