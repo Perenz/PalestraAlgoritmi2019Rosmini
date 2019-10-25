@@ -90,8 +90,10 @@ int main()
         in >> temp;
         V.push_back(temp);
     }
-    for (i = 0; i < 10; i++) //somma
-    somma += V.at(i);
+    for (i = 0; i < 10; i++){ //somma
+        somma += V.at(i);
+    }
+    
     cout << La somma vale: << somma << endl;
 return 0;
 ```
