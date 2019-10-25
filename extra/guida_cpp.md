@@ -113,7 +113,7 @@ v.pop_back() //4
 //rimane {1,3]
 
 //Accedere all'ultimo elemento (la coda)
-v.back() //4
+v.back() //3
 
 //Accedere al primo elemento (la testa)
 v.front() //1
@@ -122,7 +122,7 @@ v.front() //1
 v.empty() //false
 
 //Ottenere il numero di elementi contenuti
-v.size() //3
+v.size() //2
 
 //ITERARE sull'intero vettore
 for(int n:v){
