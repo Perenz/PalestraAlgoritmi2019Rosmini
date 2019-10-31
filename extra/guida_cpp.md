@@ -44,7 +44,7 @@ vector<int> v; //dichiarazione di un vettore di interi v
 
 //inserisco in v il valore a
 int a = 2;
-v.push_back(2);
+v.push_back(a);
 
 //size restituisce la dimensione del vettore, in questo caso 1 perché c'è un solo elemento
 int c = v.size();
@@ -57,12 +57,13 @@ v.push_back(4);
 //vale la stessa modalità di accesso degli array statici, v[0] è uguale a 2
 int z = v[0];
 
-//Se dovete dichiarare un vettore con dimensione presa in input NON FATE qualcosa del genere altrimenti vi picchio
-int N;
-in>>N;
-int v[N];
+//Nonostante abbia dimensione """illimitata""" non si può accedere ad un elemento non ancora asseggnato
+//Non si può quindi fare:
+//int z = v[5]
 
-//potete però fare
+
+
+//Potete però dare al vettore una dimensione (NON è fissa, può variare) facendo:
 int N;
 in>>N;
 vector<int> v(N);
@@ -73,8 +74,63 @@ vector<int> v;
 
 in>>N;
 v.resize(N);
-
 ```
+
+Piccolo esempio:
+```cpp
+#include <vector>
+using namespace std;
+
+int main()
+{
+    vector <int> V; //dichiarazione del vettore
+    int temp, somma = 0;
+    for (int i = 0; i < 10; i++) //lettura
+    {
+        in >> temp;
+        V.push_back(temp);
+    }
+    for (i = 0; i < 10; i++){ //somma
+        somma += V.at(i);
+    }
+    
+    cout << La somma vale: << somma << endl;
+return 0;
+```
+
+Alcuni metodi importanti:
+```cpp
+vector<int> v
+
+//Aggiungere elementi dalla coda
+v.push_back(1);
+v.push_back(3);
+v.push_back(4);
+//{1,3,4}
+
+//Rimuovere elementi dalla coda
+v.pop_back() //4
+//rimane {1,3]
+
+//Accedere all'ultimo elemento (la coda)
+v.back() //3
+
+//Accedere al primo elemento (la testa)
+v.front() //1
+
+//Verificare se il vettore è vuoto
+v.empty() //false
+
+//Ottenere il numero di elementi contenuti
+v.size() //2
+
+//ITERARE sull'intero vettore
+for(int n:v){
+    //istruzioni...
+}
+```
+per saperne di più: https://it.cppreference.com/w/cpp/container/vector
+
 
 #### Sort
 Implementazione di un algoritmo di ordinamento (efficiente):
@@ -121,6 +177,32 @@ int d = abs(b);
 ```
 A fine esecuzione c varrà 5 e d varrà 5.
 
+#### String
+Consiste in una collezione di caratteri (char)
+Per poterle utilizzare è necessario includere la libreria string
+```cpp
+#include <string>
+string nome = "Stefano"
+string cognome = "Perenzoni"
+string nomeCompleto = nome + cognome; //Concatenazione di stringhe, trova l'"errore"
+cout << nomeCompleto
+```
+
+Alcuni metodi utili
+```cpp
+#include <string>
+string nome = "Stefano"
+string cognome = "Perenzoni"
+
+//Ottenere la lunghezza della stringa
+nome.length();
+
+//Accedere a caratteri singoli
+nome[0] //S
+```
+
+Per saperne di più: https://it.cppreference.com/w/cpp/string/basic_string
+    
 ## Cose a cui prestare attenzione
 
 #### Integer overflow
